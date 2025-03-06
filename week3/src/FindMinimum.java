@@ -2,11 +2,11 @@ public class FindMinimum {
     public static void main(String[] args) {
         if (args.length != 3) {
             System.out.println("Invalvid");
-        }else {
+        } else {
 
-        int number1 = Integer.parseInt(args[0]);
-        int number2 = Integer.parseInt(args[1]);
-        int number3 = Integer.parseInt(args[2]);
+            int number1 = Integer.parseInt(args[0]);
+            int number2 = Integer.parseInt(args[1]);
+            int number3 = Integer.parseInt(args[2]);
 
 
             boolean min_number1 = number1 < number2 && number1 < number3;
@@ -17,5 +17,4 @@ public class FindMinimum {
 
         }
     }
-
 }
